@@ -5,8 +5,9 @@ int main()
 	char ch;
 	cout<<"Enter a character: ";
 	cin>>ch;
-	if((ch>='a'&& ch<='z') || (ch>='A' && ch<='Z'))
+	if(ch>='a'&& ch<='z')
 	{
+	   if(ch>='A' && ch<='Z')
 		cout<<ch<<" is an alphabet";
 	}
 	else
