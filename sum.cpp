@@ -8,7 +8,7 @@ cin>>n;
 for(i=0;i<=n;i++)
 {
 s=s+i;
-cout<<"Sum is=\n"<<s;
 }
+cout<<"Sum is="<<s;
 return 0;
 }
